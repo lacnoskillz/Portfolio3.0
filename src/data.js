@@ -15,7 +15,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "lacnoskillz";
 
 // Blog link icon - https://icon-sets.iconify.design/
 export const Blog = <Icon icon="ph:link-bold" />;
@@ -25,7 +25,9 @@ export const Blog = <Icon icon="ph:link-bold" />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+
+ " I am an ambitious web developer eagerly seeking opportunities to learn and grow within the ever-evolving field of web development. My passion for creating innovative and engaging digital experiences drives my pursuit of excellence in this dynamic industry. My goal is to become a full-time web developer and to continue to learn and grow within the industry. As a developer, I specialize in HTML, CSS, and JavaScript. I also have experience with popular web frameworks such as React and Node.js. In addition to my technical skills, I am a creative problem solver with a keen eye for design. Outside of coding, I enjoy playing the guitar and piano, reading about technology and innovation, skateboarding, and playing board games and video games. These hobbies keep me grounded and help me stay focused on my goals. Overall, I am a dedicated and enthusiastic individual who is constantly looking to learn new skills and improve my craft. I am excited about the future of web development and the many possibilities it holds.";
+
 
 /* Skills
  ************************************************************** 
