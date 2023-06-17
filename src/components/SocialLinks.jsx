@@ -14,7 +14,7 @@ const StyledSocialLinks = styled.div`
 `;
 
 export default function SocialLinks() {
-  const { blog, html_url } = useSelector(selectData);
+  const { blog, html_url, } = useSelector(selectData);
 
   return (
     <StyledSocialLinks>
@@ -24,6 +24,20 @@ export default function SocialLinks() {
         className="link-icons"
       >
         <Icon icon="icomoon-free:github" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/kaikane-lacno/"
+        aria-label="Check out my Linkedin profile."
+        className="link-icons"
+      >
+        <Icon icon="icomoon-free:linkedin" />
+      </a>
+      <a
+        href="https://leetcode.com/lacnoskillz/"
+        aria-label="Check out my Leetcode profile."
+        className="link-icons"
+      >
+        <Icon icon="simple-icons:leetcode" />
       </a>
       {blog && (
         <a href={blog} aria-label="External link" className="link-icons">
