@@ -61,8 +61,8 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <Icon icon="file-icons:styledcomponents" className="display-4" />,
-    name: "Styled Components",
+    skill: <Icon icon="simple-icons:mongodb" className="display-4" />,
+    name: "MongoDB",
   },
   {
     id: 7,
@@ -79,6 +79,21 @@ export const skillData = [
     skill: <Icon icon="fa6-brands:square-github" className="display-4" />,
     name: "GitHub",
   },
+  {
+    id: 10,
+    skill: <Icon icon="fa6-brands:npm" className="display-4" />,
+    name: "Express",
+  },
+  {
+    id: 11,
+    skill: <Icon icon="fa-brands:node" className="display-4" />,
+    name: "Node",
+  },
+  {
+    id: 12,
+    skill: <Icon icon="devicon-plain:mysql" className="display-4" />,
+    name: "MySQL",
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
@@ -88,7 +103,7 @@ export const resume = "www.google.com";
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["Cool-Beans"];
+export const filteredProjects = ["Kaikanes-Portfolio"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
 export const projectCardImages = [
