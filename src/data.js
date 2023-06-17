@@ -5,8 +5,8 @@ import me from "./images/Me.JPG"
 //import Logo from "./images/logo.svg";
 import Resume from "./images/kaikane.docx"
 // Hero Images (add your images to the /images directory with the same names)
-import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+import HeroLight from "./images/light3.jpg";
+import HeroDark from "./images/space.png";
 // If you change the import names above then you need to change the export names below
 export { HeroLight as Light };
 export { HeroDark as Dark };
