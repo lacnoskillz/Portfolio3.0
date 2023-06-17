@@ -1,8 +1,8 @@
 // Skills icons - https://icon-sets.iconify.design/
 import { Icon } from "@iconify/react";
-
+import me from "./images/Me.JPG"
 // Projects Images (add your images to the images directory and import below)
-import Logo from "./images/logo.svg";
+//import Logo from "./images/logo.svg";
 import Resume from "./images/kaikane.docx"
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -15,7 +15,8 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "lacnoskillz";
+export const githubUsername = "lacnoskillz" 
+// "calebcarnett" , "RosalvaMartinez", "hmustain";
 
 // Blog link icon - https://icon-sets.iconify.design/
 export const Blog = <Icon icon="ph:link-bold" />;
@@ -103,13 +104,13 @@ export const resume = Resume;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["Kaikanes-weather-dashboard","Kaikanes-tech-blog"];
+//export const filteredProjects = [ "Doggy-Daze", "Kaikanes-weather-dashboard","Kaikanes-tech-blog",];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "Kaikanes-tech-blog",
+    image: me,
   },
 ];
 
