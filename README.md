@@ -3,6 +3,7 @@
  Welcome to my GitHub portfolio! This repository showcases my projects and highlights my skills and expertise in webdevelopment. Feel free to explore the projects listed here, and don't hesitate to reach out if you have any questions or would like to collaborate!
 ## Usage
 ***
+To run locally clone repo make sure node is installed then run `npm install` and `npm start`
 
 ### Technologys
 ***
