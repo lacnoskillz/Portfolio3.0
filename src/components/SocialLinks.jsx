@@ -3,7 +3,8 @@ import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 import styled from "styled-components";
 // Data
-import { Blog } from "../data";
+import { //Blog 
+} from "../data";
 // Icons
 import { Icon } from '@iconify/react';
 
@@ -14,7 +15,8 @@ const StyledSocialLinks = styled.div`
 `;
 
 export default function SocialLinks() {
-  const { blog, html_url, } = useSelector(selectData);
+  const { //blog, 
+    html_url, } = useSelector(selectData);
 
   return (
     <StyledSocialLinks>
@@ -46,11 +48,11 @@ export default function SocialLinks() {
       >
         <Icon icon="simple-icons:leetcode" />
       </a>
-      {blog && (
+      {/* {blog && (
         <a href={blog} aria-label="External link" className="link-icons">
           {Blog}
         </a>
-      )}
+      )} */}
     </StyledSocialLinks>
   );
 }
