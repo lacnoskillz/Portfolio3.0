@@ -19,18 +19,18 @@ export default function SocialLinks() {
   return (
     <StyledSocialLinks>
       <a
-        href={html_url}
-        aria-label="Check out my GitHub profile."
-        className="link-icons"
-      >
-        <Icon icon="icomoon-free:github" />
-      </a>
-      <a
         href="mailto:kaikane3457@hotmail.com"
         aria-label="Email me here kaikane3457@hotmail.com."
         className="link-icons"
       >
         <Icon icon="ic:baseline-email" />
+      </a>
+      <a
+        href={html_url}
+        aria-label="Check out my GitHub profile."
+        className="link-icons"
+      >
+        <Icon icon="icomoon-free:github" />
       </a>
       <a
         href="https://www.linkedin.com/in/kaikane-lacno/"
