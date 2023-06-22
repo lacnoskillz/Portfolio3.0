@@ -13,6 +13,7 @@ To run locally clone repo make sure node is installed then run `npm install` and
 * iconify
 * Github.com
 * redux 
+* formspree api
 
 #### Screen shot
 ***
