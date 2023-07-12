@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { useSelector } from "react-redux";
-import { selectData } from "../pages/homeSlice";
+// import { useSelector } from "react-redux";
+// import { selectData } from "../pages/homeSlice";
 import { Element } from "react-scroll";
 // Data
 import { moreInfo } from "../data";
@@ -19,7 +19,7 @@ const StyledAboutMe = styled.section`
 `;
 
 export default function AboutMe() {
-  const { bio } = useSelector(selectData);
+  // const { bio } = useSelector(selectData);
 
   return (
     <Element name={"About"} id="about">
