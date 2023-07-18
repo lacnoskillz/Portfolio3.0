@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 import me from "./images/Me.JPG"
 // Projects Images (add your images to the images directory and import below)
 //import Logo from "./images/logo.svg";
-import Resume from "./images/KaikanesResume.5.0.docx"
+import Resume from "./images/kaikaneresume.pdf"
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/light3.jpg";
 import HeroDark from "./images/space.png";
