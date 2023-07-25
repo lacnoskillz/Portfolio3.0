@@ -91,8 +91,8 @@ export default function Projects() {
                         image={dog}
                         name="Doggydaze"
                         description="app to find establishments for you and your dog! Using Express, MySQL, express-handle-bars, recaptcha API and google maps API"
-                        url="https://github.com/RosalvaMartinez/doggydaze"
-                        demo="https://ancient-plains-63296.herokuapp.com/"
+                        url="https://github.com/lacnoskillz/DoggyDazeClone"
+                        demo="https://doggydaze2-f3b373e877e6.herokuapp.com/"
                       />
                     </Col>
                     <Col key="4">
