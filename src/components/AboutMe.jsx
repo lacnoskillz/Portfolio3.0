@@ -44,7 +44,7 @@ export default function AboutMe() {
                 alt="its me"
                 loading="lazy"
                 className="mx-auto rounded-circle"
-                style={{ width: "15rem", height: "15rem" }}
+                style={{ width: "25rem", height: "25rem" }}
               />
             </Col>
           </Row>
