@@ -21,7 +21,7 @@ import StyledCard from "./StyledCard";
 //app screen shots
 import note from "../images/noteSS.png"
 import book from "../images/BookSS.png"
-import weather from "../images/weatherSS.png"
+import corey from "../images/corey.png"
 import dog from "../images/doggydazeSS.png"
 import movie from "../images/movienightSS.png"
 import beans from "../images/coolbeansSS.png"
@@ -77,33 +77,25 @@ export default function Projects() {
                         demo="https://cool-beans-ecommerce.herokuapp.com/"
                       />
                     </Col>
-                    <Col key="2">
+                    <Col key="4">
                       <StyledCard
-                        image={movie}
-                        name="Movie-Night"
-                        description="app to search and find details on movies. Using OMDB API, Youtube API and Tailwind CSS"
-                        url="https://github.com/calebcarnett/Movie-Night"
-                        demo="https://calebcarnett.github.io/Movie-Night/"
+                        image={corey}
+                        name="CoreysHandmanAndReapairServices"
+                        description="Coreys Handyman & Repair Services website, where you can find a wide range of professional home repair and improvement services offered by Corey Harrison, your friendly and reliable local handyman. Using MERN stack, GraphQL, Bootstrap."
+                        url="https://github.com/lacnoskillz/Coreysworkwebsite"
+                        demo="https://coreyshandymanservices-c753feba012a.herokuapp.com/"
                       />
                     </Col>
                     <Col key="3">
                       <StyledCard
                         image={dog}
                         name="Doggydaze"
-                        description="app to find establishments for you and your dog! Using Express, MySQL, express-handle-bars, recaptcha API and google maps API"
+                        description="App to find establishments for you and your dog in SanAntonio! Create a Profile add restaurants and make reviews. Using Express, MySQL, express-handle-bars, recaptcha API and google maps API"
                         url="https://github.com/lacnoskillz/DoggyDazeClone"
                         demo="https://doggydaze2-f3b373e877e6.herokuapp.com/"
                       />
                     </Col>
-                    <Col key="4">
-                      <StyledCard
-                        image={weather}
-                        name="Kaikanes-weather-dashboard"
-                        description="App that uses weather api to get weather on searched city. Using custom CSS, HTML and javascript"
-                        url="https://github.com/lacnoskillz/Kaikanes-weather-dashboard"
-                        demo="https://lacnoskillz.github.io/Kaikanes-weather-dashboard/"
-                      />
-                    </Col>
+                
                     <Col key="5">
                       <StyledCard
                         image={book}
@@ -111,6 +103,15 @@ export default function Projects() {
                         description="This Book search website allows users to save the books they love so they can later purchase and read them. uses google books API, React, Bootstrap, GraphQL"
                         url="https://github.com/lacnoskillz/Kaikanes-Book-Search"
                         demo="https://powerful-oasis-33417.herokuapp.com/"
+                      />
+                    </Col>
+                    <Col key="2">
+                      <StyledCard
+                        image={movie}
+                        name="Movie-Night"
+                        description="App to search and find details on movies. Using OMDB API, Youtube API and Tailwind CSS"
+                        url="https://github.com/calebcarnett/Movie-Night"
+                        demo="https://calebcarnett.github.io/Movie-Night/"
                       />
                     </Col>
                     <Col key="6">
